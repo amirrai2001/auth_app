@@ -54,7 +54,9 @@ const LoginPage = () => {
                     }}
                 >
                     <div className="w-full surface-card py-8 px-5 sm:px-8" style={{ borderRadius: '53px' }}>
-                    
+                      <p className='mb-0'>Please Dont Use Google Chrome</p>
+                    <p className='mb-0'>As Cookies Are not working</p>
+                    <p className='mb-0'>We Are Trying to Resolve it ASAP</p>
 
                         <div>
                             <label htmlFor="email1" className="block text-900 text-xl font-medium mb-2">
