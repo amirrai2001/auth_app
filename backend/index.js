@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://13.126.203.18:3001/', // your frontend domain
+  origin: 'https://auth-app-psi-three.vercel.app', // your frontend domain
   credentials: true
 }));
 
