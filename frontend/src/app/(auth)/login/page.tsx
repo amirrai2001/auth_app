@@ -25,7 +25,9 @@ const LoginPage = () => {
             const res = await axios.post(`${BASEURL}auth/login`,{
                 email:email,
                 password:password
-            })
+            },{
+                withCredentials: true // only if you’re using cookies/sessions
+              })
             
             const { token, user } = res.data;
             Cookies.set('token', token, {
