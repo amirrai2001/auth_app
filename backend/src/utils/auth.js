@@ -7,7 +7,7 @@ const sendToken = (user, statusCode, res) => {
   
     const cookieOptions = {
       httpOnly: true,
-      domain:'https://auth-app-psi-three.vercel.app',
+      domain:'https://auth-app-psi-three.vercel.app/',
       maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
     };
   
