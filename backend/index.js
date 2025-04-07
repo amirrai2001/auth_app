@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000', // your frontend domain
+  origin: 'http://13.126.203.18:3000', // your frontend domain
   credentials: true
 }));
 
