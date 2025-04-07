@@ -1,2 +1,2 @@
-export const BASEURL = 'http://13.126.203.18:5000/api/'
-export const BASEURLPORT = `http://13.126.203.18:5000/`
+export const BASEURL = 'https://authapp-production-268c.up.railway.app/app/'
+export const BASEURLPORT = `https://authapp-production-268c.up.railway.app/`
