@@ -11,7 +11,7 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-app.use(cors({
+app.options('*',cors({
   origin: 'http://13.126.203.18:3000/', // your frontend domain
   credentials: true
 }));
